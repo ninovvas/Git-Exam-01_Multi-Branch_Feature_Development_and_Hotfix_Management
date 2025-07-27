@@ -1,1 +1,1 @@
-var userToken = 'hardcoded-token-123';
+var userToken = process.env.USER_TOKEN || '';
